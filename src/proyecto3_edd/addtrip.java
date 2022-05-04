@@ -26,21 +26,175 @@ public class addtrip extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        generalPanel = new javax.swing.JPanel();
+        originLabel_ = new javax.swing.JLabel();
+        destinationLabel_ = new javax.swing.JLabel();
+        plateLabel_ = new javax.swing.JLabel();
+        driverLabel_ = new javax.swing.JLabel();
+        plateField = new javax.swing.JTextField();
+        title = new javax.swing.JLabel();
+        submitButton = new javax.swing.JButton();
+        clientLabel_ = new javax.swing.JLabel();
+        plateField1 = new javax.swing.JTextField();
+        plateField2 = new javax.swing.JTextField();
+        plateField3 = new javax.swing.JTextField();
+        plateField4 = new javax.swing.JTextField();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenu1 = new javax.swing.JMenu();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        generalPanel.setBackground(new java.awt.Color(51, 51, 51));
+
+        originLabel_.setFont(new java.awt.Font("URW Gothic L", 0, 14)); // NOI18N
+        originLabel_.setForeground(new java.awt.Color(255, 255, 255));
+        originLabel_.setText("Origen:");
+
+        destinationLabel_.setFont(new java.awt.Font("URW Gothic L", 0, 14)); // NOI18N
+        destinationLabel_.setForeground(new java.awt.Color(255, 255, 255));
+        destinationLabel_.setText("Destino:");
+
+        plateLabel_.setFont(new java.awt.Font("URW Gothic L", 0, 14)); // NOI18N
+        plateLabel_.setForeground(new java.awt.Color(255, 255, 255));
+        plateLabel_.setText("Placa Vehiculo:");
+
+        driverLabel_.setFont(new java.awt.Font("URW Gothic L", 0, 14)); // NOI18N
+        driverLabel_.setForeground(new java.awt.Color(255, 255, 255));
+        driverLabel_.setText("DPI Conductor:");
+
+        plateField.setBackground(new java.awt.Color(66, 66, 66));
+        plateField.setForeground(new java.awt.Color(255, 255, 255));
+        plateField.setBorder(null);
+
+        title.setFont(new java.awt.Font("URW Gothic L", 0, 24)); // NOI18N
+        title.setForeground(new java.awt.Color(255, 255, 255));
+        title.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        title.setText("-AGREGAR VIAJE-");
+
+        submitButton.setBackground(new java.awt.Color(218, 76, 108));
+        submitButton.setFont(new java.awt.Font("URW Gothic L", 0, 14)); // NOI18N
+        submitButton.setForeground(new java.awt.Color(255, 255, 255));
+        submitButton.setText("Aceptar");
+        submitButton.setBorder(null);
+        submitButton.setFocusPainted(false);
+        submitButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                submitButtonActionPerformed(evt);
+            }
+        });
+
+        clientLabel_.setFont(new java.awt.Font("URW Gothic L", 0, 14)); // NOI18N
+        clientLabel_.setForeground(new java.awt.Color(255, 255, 255));
+        clientLabel_.setText("DPI Cliente:");
+
+        plateField1.setBackground(new java.awt.Color(66, 66, 66));
+        plateField1.setForeground(new java.awt.Color(255, 255, 255));
+        plateField1.setBorder(null);
+
+        plateField2.setBackground(new java.awt.Color(66, 66, 66));
+        plateField2.setForeground(new java.awt.Color(255, 255, 255));
+        plateField2.setBorder(null);
+
+        plateField3.setBackground(new java.awt.Color(66, 66, 66));
+        plateField3.setForeground(new java.awt.Color(255, 255, 255));
+        plateField3.setBorder(null);
+
+        plateField4.setBackground(new java.awt.Color(66, 66, 66));
+        plateField4.setForeground(new java.awt.Color(255, 255, 255));
+        plateField4.setBorder(null);
+
+        javax.swing.GroupLayout generalPanelLayout = new javax.swing.GroupLayout(generalPanel);
+        generalPanel.setLayout(generalPanelLayout);
+        generalPanelLayout.setHorizontalGroup(
+            generalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(generalPanelLayout.createSequentialGroup()
+                .addGap(258, 258, 258)
+                .addGroup(generalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(originLabel_)
+                    .addGroup(generalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(title, javax.swing.GroupLayout.PREFERRED_SIZE, 305, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, generalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(destinationLabel_, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(clientLabel_, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(plateField, javax.swing.GroupLayout.DEFAULT_SIZE, 305, Short.MAX_VALUE)
+                            .addComponent(plateLabel_, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(driverLabel_, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(submitButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(plateField1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 305, Short.MAX_VALUE)
+                            .addComponent(plateField2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 305, Short.MAX_VALUE)
+                            .addComponent(plateField3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 305, Short.MAX_VALUE)
+                            .addComponent(plateField4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 305, Short.MAX_VALUE))))
+                .addContainerGap(319, Short.MAX_VALUE))
+        );
+        generalPanelLayout.setVerticalGroup(
+            generalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(generalPanelLayout.createSequentialGroup()
+                .addGap(129, 129, 129)
+                .addComponent(title)
+                .addGap(18, 18, 18)
+                .addComponent(originLabel_)
+                .addGap(7, 7, 7)
+                .addComponent(plateField1, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(destinationLabel_)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(plateField4, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(plateLabel_)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(plateField, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(driverLabel_)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(plateField2, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
+                .addComponent(clientLabel_)
+                .addGap(15, 15, 15)
+                .addComponent(plateField3, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(submitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(119, 119, 119))
+        );
+
+        jMenu1.setText("Return");
+        jMenu1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jMenu1MouseClicked(evt);
+            }
+        });
+        jMenuBar1.add(jMenu1);
+
+        setJMenuBar(jMenuBar1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(generalPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(generalPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void submitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitButtonActionPerformed
+      
+    }//GEN-LAST:event_submitButtonActionPerformed
+
+    private void jMenu1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu1MouseClicked
+        // TODO add your handling code here:
+        
+        new cliente().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jMenu1MouseClicked
 
     /**
      * @param args the command line arguments
@@ -78,5 +232,20 @@ public class addtrip extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel clientLabel_;
+    private javax.swing.JLabel destinationLabel_;
+    private javax.swing.JLabel driverLabel_;
+    private javax.swing.JPanel generalPanel;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JLabel originLabel_;
+    private javax.swing.JTextField plateField;
+    private javax.swing.JTextField plateField1;
+    private javax.swing.JTextField plateField2;
+    private javax.swing.JTextField plateField3;
+    private javax.swing.JTextField plateField4;
+    private javax.swing.JLabel plateLabel_;
+    private javax.swing.JButton submitButton;
+    private javax.swing.JLabel title;
     // End of variables declaration//GEN-END:variables
 }
