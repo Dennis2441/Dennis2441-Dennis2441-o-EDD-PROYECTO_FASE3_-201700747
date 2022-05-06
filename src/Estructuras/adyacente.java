@@ -27,6 +27,8 @@ public class adyacente {
         //sds
         this.lugar=lugar;
         this.lugar=lugar;
+        this.lugar=lugar;
+        this.lugar=lugar;
     }
     
     
