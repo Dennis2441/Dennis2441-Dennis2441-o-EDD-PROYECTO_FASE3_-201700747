@@ -8,6 +8,12 @@ package Estructuras;
  *
  * @author denni
  */
+
+import Estructuras.Lugar;
+import Estructuras.Route;
+import Estructuras.listaedge;
 public class Graph {
+    
+    
     
 }

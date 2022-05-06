@@ -8,9 +8,6 @@ package Estructuras;
  *
  * @author denni
  */
-public class reportetrip {
-    
-    
-    
+public class adyacente {
     
 }

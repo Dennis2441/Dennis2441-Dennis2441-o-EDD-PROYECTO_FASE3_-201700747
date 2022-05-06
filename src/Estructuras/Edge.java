@@ -13,11 +13,21 @@ public class Edge {
     private String place;
     private Edge father;
     private long time;
+    Edge next;
 
     public Edge(String place, Edge father, long time) {
         this.place = place;
         this.father = father;
         this.time = time;
+        next=null;
+    }
+
+    public Edge getNext() {
+        return next;
+    }
+
+    public void setNext(Edge next) {
+        this.next = next;
     }
 
     public Edge getFather() {
