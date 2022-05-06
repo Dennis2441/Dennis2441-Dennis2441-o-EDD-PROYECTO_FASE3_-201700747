@@ -25,7 +25,8 @@ public class adyacente {
     public void setLugar(listasimplelugar lugar) {
         this.lugar = lugar;
         //sds
-        
+        this.lugar=lugar;
+        this.lugar=lugar;
     }
     
     
