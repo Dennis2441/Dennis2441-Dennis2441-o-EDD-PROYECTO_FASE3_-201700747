@@ -8,6 +8,25 @@ package Estructuras;
  *
  * @author denni
  */
+import Estructuras.listasimplelugar;
 public class adyacente {
+    
+    
+    listasimplelugar lugar;
+
+    public adyacente(listasimplelugar lugar) {
+        this.lugar = lugar;
+    }
+
+    public listasimplelugar getLugar() {
+        return lugar;
+    }
+
+    public void setLugar(listasimplelugar lugar) {
+        this.lugar = lugar;
+        //sds
+        this.lugar=lugar;
+    }
+    
     
 }
